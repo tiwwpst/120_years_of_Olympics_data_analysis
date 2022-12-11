@@ -97,6 +97,7 @@ if options == "The Number of Partcipating Countries":
         template="plotly_white",
         width=900,
         height=500,
+        title='Summer Season'
     )
     st.plotly_chart(fig)
 
@@ -107,6 +108,7 @@ if options == "The Number of Partcipating Countries":
         template="plotly_white",
         width=900,
         height=500,
+        title='Winter Season'
     )
     st.plotly_chart(fig)
     st.subheader(
